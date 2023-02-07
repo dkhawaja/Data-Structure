@@ -130,18 +130,18 @@ function LinkedList() {
   
   } 
   
-  var conga = new LinkedList();
-  conga.add('Kitten');
-  conga.add('Puppy');
-  conga.add('Dog');
-  conga.add('Cat');
-  conga.add('Fish');
-  console.log("size=" + conga.size());
+  var LinkedList = new LinkedList();
+  LinkedList.add('Kitten');
+  LinkedList.add('Puppy');
+  LinkedList.add('Dog');
+  LinkedList.add('Cat');
+  LinkedList.add('Fish');
+  console.log("size=" + LinkedList.size());
   
-  console.log("remove at 3 =" + conga.removeAt(3));
-  console.log("element at 3 = " +conga.elementAt(3));
-  console.log("index of puppy = " + conga.indexOf('Puppy'));
-  console.log("size =" + conga.size());
+  console.log("remove at 3 =" + LinkedList.removeAt(3));
+  console.log("element at 3 = " +LinkedList.elementAt(3));
+  console.log("index of puppy = " + LinkedList.indexOf('Puppy'));
+  console.log("size =" + LinkedList.size());
   
   
   //added comment
